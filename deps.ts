@@ -1,13 +1,13 @@
 export * as ConsoleColor from "https://deno.land/x/colorlog@v1.0/mod.ts";
 
-export { default as SQLQueryBuilder } from "https://raw.githubusercontent.com/denjucks/dex/master/mod.ts";
+export { default as SQLQueryBuilder } from "https://deno.land/x/dex@1.0.2/mod.ts";
 
-export { camelCase, snakeCase } from "https://deno.land/x/case/mod.ts";
+export { camelCase, snakeCase } from "https://deno.land/x/case@v2.1.0/mod.ts";
 
 export {
   Client as MySQLClient,
   Connection as MySQLConnection,
-} from "https://deno.land/x/mysql/mod.ts";
+} from "https://deno.land/x/mysql@v2.7.0/mod.ts";
 
 export { Client as PostgresClient } from "https://deno.land/x/postgres@v0.4.6/mod.ts";
 
